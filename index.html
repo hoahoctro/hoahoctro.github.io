@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Kiri Box</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<style>
+		/*logo color #15c6e8*/
+		html, body {
+			background-color: #00001a;
+		}
+
+		ul {
+		}
+
+		li {
+			border-radius: 5px;
+		}
+
+		.active {
+			background: #003333;
+		}
+
+		.nav>li>a:focus {
+			background-color: #003333;
+			outline: none;
+		}
+
+		.section-1 {
+			background-color: #004d4d;
+		}
+
+		.section-2 {
+			background-color: #004d4d/*#006666*/;
+			min-height: 80vh;
+		}
+
+		.section-3 {
+			background-color: #006666;
+			min-height: 80vh;
+		}
+
+		.panel {
+			width: 50px;
+			height: 50px;
+		}
+	</style>
+</head>
+<body>
+	<div class="container-fluid my-2">
+		<div class="row">
+			<div class="col">
+				<div class="container-fluid d-flex justify-content-center">
+					<img src="logo.png" height="96px">
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col">
+				<div class="section-1 container-fluid d-flex flex-column justify-content-center align-items-center shadow-lg py-2 mt-4" style="border-radius: 5px">
+					<ul class="nav nav-pills">
+						<li class="nav-item">
+							<a class="nav-link text-white" href="intro.html" id="control-tab">INTRO</a>
+						</li>
+						
+					</li>
+					<li class="nav-item">
+						<a class="nav-link text-white" href="order.html">ORDER</a>
+					</li>
+				</ul>
+			</div>
+		</div>			
+	</div> 
+
+	
+</div>
+<script src="js/jquery.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
